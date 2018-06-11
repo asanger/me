@@ -4,13 +4,13 @@
 
 ## Table of Contents
 - [Contact](#contact)
-- Work Experience
-  - GalaxE.Solutions
-  - LevelSet Solutions
-  - Ancor Information
-- Education
-- Programming Languages/Frameworks
-- Favorite Projects
+- [Work Experience](#work-experience)
+  - [GalaxE.Solutions](#galaxesolutions-detroit-mi)
+  - [LevelSet Solutions](#levelset-solutions-royal-oak-mi)
+  - [Ancor Information](#ancor-information-troy-mi)
+- [Education](#education)
+- [Programming Languages/Frameworks](#programming-languagesframeworks)
+- [Favorite Projects](#favorite-projects)
 
 ## Contact
 

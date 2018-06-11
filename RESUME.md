@@ -100,8 +100,11 @@ Develop and maintain automated .NET systems for file processing and print output
 ## Favorite Projects
 
 ### Real-time "Competition" App
-Description  
-Why I liked it
+
+**Description:** This was an iOS application that worked just like the bar trivia games that you see at Buffalo Wild Wings. Each user would get an iPad with the application on it which allowed them to either host a game or join a game. The host user could watch as players joined their game (like a "waiting room") and could start the game whenever they were ready. The game itself consisted of X number of questions, each with Y seconds to answer. The quicker the question was answered, the more points the player was awarded. At the end of the game, the winning player was displayed on all of the iPads.
+people join their game and then start the game at any time.
+
+**Why I liked it:**
 
 ### Driving School
 Description  

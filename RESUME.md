@@ -26,12 +26,13 @@ sanger.alec@gmail.com
 
 **Director of Technology** (July 2017 - PRESENT)
 
-Summary of your role
+Primarily responsible for driving the technical elements of client projects both in-house and on-site.
 
-- Accomplishment that contains **bold text**.
-- Accomplishment
-- Accomplishment
-- Accomplishment
+- Migrated a number of on-prem systems to the cloud using AWS.
+- Implemented coding standards, commit guidelines, and agile methodologies for in-house software projects.
+- Mentored individuals and teams around best practices, especially when it comes to cloud-ready applications.
+- Ran a weekly Machine Learning roundtable discussion to help teach people about machine learning. Meeting topics included things like the core concepts and mathematics of machine learning, the ethics of the industry, and actual design/implementation of small ML applications.
+- Formed and lead a “SWAT” team of highly skilled developers to tackle the most interesting problems in sometimes unconventional ways using primarily linux-based stacks.
 
 --- 
 
@@ -45,6 +46,7 @@ Summary of your role
 - Initially focused on .NET (C#) rewrite of a large enterprise web application
 - Solely responsible for all aspects of development until additional developer was hired
 - **Promoted to Technical Development Lead in October 2013**
+- Continued development with modern technology, primarily in ruby, php, javascript (angular), and objective-c. 
 - Hired people for their values and desire to learn, more so than their current technical skills. This resulted in a team of highly motivated, highly collaborative developers who were constantly looking to improve themselves and their peers.
 - Emphasized the importance of a collaborative development experience. By moving all of our code to Github, we were able to introduce standards for referential commit messages and a streamlined code review processes that kept the experience tidy for both developers and business analysts. I introduced Slack and an open-source internal wiki that we used for documentation, and cultivated a culture of openness and and curiosity.
 - Went all-in on Amazon Web Services and Infrastructure As Code, which allowed us to rapidly deploy environments that were fully redundant and version-controlled.
@@ -53,6 +55,7 @@ Summary of your role
 - Established a weekly technology meeting with a rotating presentation schedule between each developer to encourage open discussions and collaboration.
 - Emphasized the importance of doing things the right way. Code smells were made to be an important part of our development process, and when something didn’t smell right, we always discussed why and what could be done to make it better.
 - **Promoted to Director of Technology in March 2015**
+- Continued development with modern technology, primarily in ruby, php, and javascript (angular). 
 - Fully responsible for re-architecture and migration of multiple enterprise applications to the cloud. In total, hosting infrastructure consisted of 45+ servers between 6 virtual private networks, all implemented with load balancing, automatic failovers, and distributed services.
 - Implemented coding and architecture standards that revolved around stateless services. At the infrastructure level, services were broken up by domain and decoupled for reusability between systems. At the code level, stateless single-purpose service objects were the primary drivers of functionality. This resulted in a significantly cleaner codebase with highly reusable components.
 - Researched and tested several Infrastructure as Code technologies to replace our home-grown solution built several years prior. Converted all of our hosted applications to use Chef and AWS Opsworks for provisioning/deployment.
@@ -66,13 +69,14 @@ Summary of your role
 
 **.NET Developer** (February 2007 - December 2010)
 
-Summary
+Develop and maintain automated .NET systems for file processing and print output
 
-- Accomplishment
-- Accomplishment
-- Accomplishment
-- Accomplishment
-
+- Automatically process CSV data to be printed on various mediums such as medical mailers and insurance cards.
+- Responsible for all “non-continuity” jobs which were often one-time jobs that could not be easily automated.
+- Formed a communication committee to improve the communication between the technical team and the operations team, which resulted in a greater understanding of each other and a significant reduction in future errors (that were previously caused by a lack of communication).
+- Performed minor enhancements to large batch processes.
+- Converted legacy applications to the .NET framework.
+- Formed a Communication Committee to help different teams address and work through communication issues
 
 
 ## Education
@@ -95,12 +99,18 @@ Summary
 
 ## Favorite Projects
 
-### Project 1
-Description
+### Real-time "Competition" App
+Description  
+Why I liked it
 
-### Project 2
-Description
+### Driving School
+Description  
+Why I liked it
 
-### Project 3
+### Medical Payment Plan
+Description  
+Why I liked it
+
+### On-Demand Scheduling 
 Description
 

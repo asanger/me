@@ -110,18 +110,15 @@ people join their game and then start the game at any time.
 3. I got to implement a proper state machine (I am a big fan of state machines!)
 4. The organization of the code turned out really well. It was extremely clear where all of the functionality lived, classes were abstracted and subclassed appropriately, comments were meaningful, it just felt really good. 
 
-### Driving School
-**Description:**   
-
-**Why I liked it:** 
-
 ### Medical Payment Plan
 **Description:** This was an enterprise web application that processed payment plans for medical bills. Hospitals would partner with this company to offer the service to patients, who would then make monthly payments through the application. Behind the scenes, the system would reimburse the hospitals and keep a small percent of the financed amount. This was a highly ambitious project, as there was significant logic around generating loan installments, interest calculations, and custom rules that each hospital could specify that had a ripple effect on many other aspects of the system.
 
 **Why I liked it:** The project itself sounds like the epitome of boring - there is nothing exciting about generating payment plans. What made this exciting was *how* we built it. [Rails "engines"](http://tech.taskrabbit.com/blog/2014/02/11/rails-4-engines/) allow you to build a large application out of multiple smaller applications. This greatly simplifies the process of testing and forces a separation of concerns at the engine-level. The engines that we created, which encapsulated *all* functionality for this system, were Account Management, Accounting, API, Events, and Payments. This was a fun experiment that worked out extremely well.
 
 ### On-Demand Scheduling 
-**Description:**   
+**Description:** This system was originally developed to solve the problem of nurses doing last-minute scheduling during sudden influxes of patients at a hospital. Currently, the vast majority of nurses are contacted manually via text message, which is cumbersome and clumsy. This system worked based off of push notifications to mobile devices, and allowed nurses to quickly accept or reject a shift request so the charge nurses knew who would be coming in. The system consisted of 3 parts: the mobile app used by nurses, the administrative site used by charge nurses and hospital management, and the API to connect everything together.
 
-**Why I liked it:** 
-
+**Why I liked it:**   
+1. Typically when I build an API, all systems that connect to it are doing roughly the same thing (usually just pulling information or making typical CRUD requests). This API had to work for two fairly different use-cases (mobile app and administrative site), and it was fun to figure out the best way to share functionality while properly restricting access based on permissions.
+2. The system needed to schedule a large number of events that needed to be executed in the future. We originally just created records with a future timestamp for each action that needed to be created, but that wasn't ideal because these events would almost always be modified based on some user action, causing a signficiant number of additional operations. We shifted strategies and scheduled the event itself in a redis cache and then triggered a call to execute any pending events each minute. By scheduling the event rather than the actions, we greatly reduced the amount of cleanup work that was required when something changed, and overall cleaned up a ton of code.
+3. There was a serious threat of race conditions that we needed to handle, which eventually ended up biting us as the system grew. As frustrating as it was, it was a great feeling when we finally worked through proper locking mechanisms to prevent concurrent reads of information that was in the process of being updated.

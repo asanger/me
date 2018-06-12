@@ -111,13 +111,17 @@ people join their game and then start the game at any time.
 4. The organization of the code turned out really well. It was extremely clear where all of the functionality lived, classes were abstracted and subclassed appropriately, comments were meaningful, it just felt really good. 
 
 ### Driving School
-Description  
-Why I liked it
+**Description:**   
+
+**Why I liked it:** 
 
 ### Medical Payment Plan
-Description  
-Why I liked it
+**Description:** This was an enterprise web application that processed payment plans for medical bills. Hospitals would partner with this company to offer the service to patients, who would then make monthly payments through the application. Behind the scenes, the system would reimburse the hospitals and keep a small percent of the financed amount. This was a highly ambitious project, as there was significant logic around generating loan installments, interest calculations, and custom rules that each hospital could specify that had a ripple effect on many other aspects of the system.
+
+**Why I liked it:** The project itself sounds like the epitome of boring - there is nothing exciting about generating payment plans. What made this exciting was *how* we built it. [Rails "engines"](http://tech.taskrabbit.com/blog/2014/02/11/rails-4-engines/) allow you to build a large application out of multiple smaller applications. This greatly simplifies the process of testing and forces a separation of concerns at the engine-level. The engines that we created, which encapsulated *all* functionality for this system, were Account Management, Accounting, API, Events, and Payments. This was a fun experiment that worked out extremely well.
 
 ### On-Demand Scheduling 
-Description
+**Description:**   
+
+**Why I liked it:** 
 

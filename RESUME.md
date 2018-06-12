@@ -104,7 +104,11 @@ Develop and maintain automated .NET systems for file processing and print output
 **Description:** This was an iOS application that worked just like the bar trivia games that you see at Buffalo Wild Wings. Each user would get an iPad with the application on it which allowed them to either host a game or join a game. The host user could watch as players joined their game (like a "waiting room") and could start the game whenever they were ready. The game itself consisted of X number of questions, each with Y seconds to answer. The quicker the question was answered, the more points the player was awarded. At the end of the game, the winning player was displayed on all of the iPads.
 people join their game and then start the game at any time.
 
-**Why I liked it:**
+**Why I liked it:** There were a number of reasons why this was such a cool app...  
+1. The ability to connect any number of devices was a super interesting challenge. Internet connectivity was not guaranteed, so we couldn't rely on a server to manage the connections and states. We ended up implementing bluetooth connectivity which for the most part worked great as there were no external dependencies other than proximity - we just needed one of the iPads to act as a temporary server/host. Of course this came with an immediate connection loss when the iPad went to sleep, which was another problem entirely... 
+2. I got a chance to construct and deconstruct packets manually, which was a nice change since that's almost always handled automatically these days.
+3. I got to implement a proper state machine (I am a big fan of state machines!)
+4. The organization of the code turned out really well. It was extremely clear where all of the functionality lived, classes were abstracted and subclassed appropriately, comments were meaningful, it just felt really good. 
 
 ### Driving School
 Description  

@@ -95,8 +95,8 @@ Develop and maintain automated .NET systems for file processing and print output
 
 - **Ruby:** My pride and joy. I have a deep passion for the expressiveness that ruby provides and the community that surrounds it. Most of my large-scale web applications are built Rails, though I have also built apps with Sinatra and Hanami (previously known as Lotus). If I need to script something in a pinch, you can bet it'll be a few lines of ruby!
 - **PHP:** Prior to discovering ruby, PHP was my language of choice. I made little use of popular frameworks and instead spent a great deal of time trying to roll my own custom code. While I'm not a huge fan of the language itself, I do still appreciate it and recognize it as a valuable language, especially with PHP7. It will always hold a special place in my heart.
-- **Javascript** The effort required to stay up-to-date with the latest and greatest in the Javascript world has prevented me from making it a primary language of mine, but I have used both Angular and React a fair amount. I prefer to focus on functional components that consume APIs rather the user interface. Node/Express are great, but I've often opted for rails for my APIs.
-- **C#:** Honrable mention - I think .NET is extremely powerful and comprehensive, I just don't like developing on Windows. .NET Core is a step in the right direction, though!
+- **Javascript** While I generally prefer backend development, I couldn't consider myself a full stack developer without being able to interface with that backend with some sweet Javascript. Most of what I've written focuses on functional components that consume APIs rather the user interface (Angular/React/Vue). I'm a fan of Node+Express, but I will typically choose to build my APIs in Rails.
+- **C#:** Honorable mention - I think .NET is extremely powerful and comprehensive, I just don't like developing on Windows. .NET Core is a step in the right direction, though!
 - Basic knowledge of **Objective-C**, **Python**, **Elixer**, **Java**
 
 

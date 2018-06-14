@@ -47,6 +47,7 @@ Primarily responsible for driving the technical elements of client projects both
 
 - First developer to join the company
 - Initially focused on .NET (C#) rewrite of a large enterprise web application
+- Custom web application development with PHP
 - Solely responsible for all aspects of development until additional developer was hired
 - **Promoted to Technical Development Lead in October 2013**
 - Continued development with modern technology, primarily in ruby, php, javascript (angular), and objective-c. 
